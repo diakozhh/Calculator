@@ -1,0 +1,45 @@
+[OPTIONS]
+Compiled file=calculator.chm
+Compatibility=1.1
+Full-text search=Yes
+Contents file=index.hhc
+Default Window=main
+Default topic=index.html
+Index file=index.hhk
+Language=0x409 English (United States)
+Title=Calculator
+
+[WINDOWS]
+main="Calculator","index.hhc","index.hhk","index.html","index.html",,,,,0x23520,,0x10387e,,,,,,,,0
+
+[FILES]
+annotated.html
+calculator_8cpp_source.html
+calculator_8h_source.html
+classerror-members.html
+classerror.html
+classes.html
+error_8h_source.html
+files.html
+functions.html
+functions_enum.html
+functions_func.html
+functions_vars.html
+index.html
+structcontent__t-members.html
+structcontent__t.html
+structtoken__t-members.html
+structtoken__t.html
+token_8h_source.html
+bc_s.png
+bdwn.png
+closed.png
+nav_f.png
+nav_h.png
+open.png
+sync_off.png
+sync_on.png
+tab_a.png
+tab_b.png
+tab_h.png
+tab_s.png

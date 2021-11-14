@@ -1,0 +1,239 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "calculator",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "calculator",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "calculator/dllFunction",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "calculator/dllFunction"
+				},
+				{
+					"build" : "calculator/dllFunction/ln",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "calculator/dllFunction/ln",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "calculator/dllFunction/pow",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "calculator/dllFunction/pow",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "calculator/dllFunction/trigonometry",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 3,
+					"source" : "calculator/dllFunction/trigonometry"
+				},
+				{
+					"build" : "calculator/dllFunction/trigonometry/sinus",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "calculator/dllFunction/trigonometry/sinus",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "calculator/dllFunction/trigonometry/cosinus",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 3,
+					"source" : "calculator/dllFunction/trigonometry/cosinus",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "calculator",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "ln",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "power",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5,
+						6,
+						7
+					],
+					"name" : "trigonometry",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "calculator::@5f95e9f2bb1716c87126",
+					"jsonFile" : "target-calculator-Debug-7e72f2efb4caf4f8f2de.json",
+					"name" : "calculator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "cosin::@0ad7f5089ad50bc09d90",
+					"jsonFile" : "target-cosin-Debug-3167813638d34cf0a5e8.json",
+					"name" : "cosin",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ln::@d0fe6e41458b611e5842",
+					"jsonFile" : "target-ln-Debug-d01ce952fafff847229d.json",
+					"name" : "ln",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "power::@b21e4161a228e33c322e",
+					"jsonFile" : "target-power-Debug-f24c0ad41b63ebd0ee58.json",
+					"name" : "power",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "sinus::@760d9a12b9cf22bc94ec",
+					"jsonFile" : "target-sinus-Debug-baaee040785b8e236f7d.json",
+					"name" : "sinus",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Work/cpp/calculator/out/build/x64-Debug",
+		"source" : "E:/Work/cpp/calculator"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}
